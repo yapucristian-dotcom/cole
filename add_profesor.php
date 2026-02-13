@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 } else {
-    $response['message'] = 'Método de solicitud no permitido...';
+    $response['message'] = 'Método de solicitud no permitido..';
 }
 
 echo json_encode($response);
